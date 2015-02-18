@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alogorithems", "Alogorithems\Alogorithems.csproj", "{839549D3-BC1A-4A5E-B0F8-5542F06A7C13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BST", "BST\BST.csproj", "{9BAF11E9-DA65-4D89-A5ED-33E230925111}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{839549D3-BC1A-4A5E-B0F8-5542F06A7C13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{839549D3-BC1A-4A5E-B0F8-5542F06A7C13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{839549D3-BC1A-4A5E-B0F8-5542F06A7C13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{839549D3-BC1A-4A5E-B0F8-5542F06A7C13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BAF11E9-DA65-4D89-A5ED-33E230925111}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BAF11E9-DA65-4D89-A5ED-33E230925111}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BAF11E9-DA65-4D89-A5ED-33E230925111}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BAF11E9-DA65-4D89-A5ED-33E230925111}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
