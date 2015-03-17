@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using BST;
+using Newtonsoft.Json;
 
 namespace Alogorithems
 {
@@ -16,6 +17,8 @@ namespace Alogorithems
             // 4
             // 7
             var tree = new Node(1, new Node(2, new Node(4, new Node(7)), new Node(5)), new Node(3, new Node(6, new Node(8), new Node(9))));
+            var v = JsonConvert.SerializeObject(tree);
+            Console.WriteLine(v);
             var ts = new TreeTraversal();
             ts.printTreeLevel_iter1(tree);
             Console.WriteLine(); ts.PreOder(tree);
